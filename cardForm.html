@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .textInput {
+        border: none;
+        border-bottom: 1px solid black;
+        text-align: center;
+        font-style: italic;
+      }
+      #LastName {
+        margin: 95px;
+      }
+      .bold {
+        font-weight: bold;
+      }
+      body {
+        border: 2px solid black;
+        width: 30%;
+        float: left;
+        margin-left: 35%;
+      }
+    </style>
+  </head>
+  <body>
+    <span style="text-align: center; background-color: red; color: white">
+      Yes I want to subscribe to <strong>Mag-O-Zine</strong>
+    </span>
+    <div>
+      <input type="text" class="textInput" value="Joe" />
+      <input type="text" class="textInput" value="Schemeggie" />
+    </div>
+    <div>
+      <span>FirstName</span>
+      <span id="LastName">LastName</span>
+    </div>
+    <div>
+      <input
+        type="text"
+        class="textInput"
+        size="46"
+        value="101 Washington Street"
+      />
+    </div>
+    <div>
+      <span>Address</span>
+    </div>
+    <div>
+      <input type="text" class="textInput" size="15" value="Ayugor" />
+      <input type="text" class="textInput" size="10" value="CA" />
+      <input type="text" class="textInput" size="15" value="99999" />
+    </div>
+    <div>
+      <span>City</span>
+      <span id="LastName">State</span>
+      <span>Zip</span>
+    </div>
+    <div class="bold">
+      <span>Subscribe For</span>
+      <input type="checkbox" checked />
+      <label>1 year($19.95)</label>
+      <input type="checkbox" />
+      <label>2 years($35.00)</label>
+    </div>
+    <div class="bold">
+      <p>Send more infromation about:</p>
+      <input type="checkbox" checked /> Computer-Zine<br />
+      <input type="checkbox" /> Fishing-Zine<br />
+      <input type="checkbox" checked /> Cat-O-Zine
+    </div>
+  </body>
+</html>
